@@ -1,0 +1,27 @@
+# Core Dependencies
+PySide6>=6.5.0       # Modern Qt-based GUI framework
+Wand>=0.6.11         # Image processing based on ImageMagick
+
+# Web Framework & API
+Flask==2.0.1         # Web framework for the REST API
+Werkzeug==2.0.3      # WSGI utility library for Flask
+Flask-CORS>=3.0.10   # Cross-Origin Resource Sharing support
+requests>=2.27.1     # HTTP client for API communication
+
+# HTTP & Networking
+urllib3>=1.26.0      # URL handling
+
+# Development & Testing
+pytest>=6.2.5         # Testing framework
+pytest-cov>=2.12.1   # Coverage reporting
+black>=21.12b0       # Code formatter
+flake8>=4.0.1        # Linter
+isort>=5.10.1        # Import sorter
+
+# Documentation
+sphinx>=4.3.2         # Documentation generator
+sphinx-rtd-theme>=1.0.0  # ReadTheDocs theme
+
+# Platform-specific Notes:
+# - This is the Windows-specific requirements file
+# - RPi.GPIO is excluded as it's not needed on Windows
